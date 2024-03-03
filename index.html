@@ -11,8 +11,8 @@
 </head>
 
 <body>
-    <!--Navbar criada pelo bootstrap-->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
             
             <a class="navbar-brand" href="#">
@@ -44,6 +44,45 @@
             </div>
         </div>
     </nav>
+    <!--Carousel-->
+    <div id="carousel-coffe" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carousel-coffe" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carousel-coffe" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carousel-coffe" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://images.unsplash.com/photo-1507915135761-41a0a222c709?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="Funcionário jogando leite em uma xicara de café">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>A melhor experiência gastronômica de café</h5>
+              <p>Você vai experienciar os melhores cafés do Brasil e do mundo.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="/assets/image/img-02.jpg" class="d-block w-100" alt="3 amigos segurando uma xícara de café, mostrando somente as mãos deles">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Um ambiente pensado para você e sua família</h5>
+              <p>Nosso ambiente foi pensado para te fornecer um ambiente confortável, tranquilo e leve.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="/assets/image/img-03.jpg" class="d-block w-100" alt="Xícara de café com o fundo cheio de grãos de café">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Os melhores grãos</h5>
+              <p>Trabalhamos com ingrredientes selecionados, da melhor qualidade, do jeito que você merece!</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-coffe" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel-coffe" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
